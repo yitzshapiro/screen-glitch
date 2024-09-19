@@ -12,10 +12,6 @@
       "postbuild": "cpx \"src/**/*.{css,png,gif}\" dist",
       "prepare": "npm run build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/yourusername/screen-glitch.git"
-    },
     "keywords": [
       "react",
       "component",
@@ -24,8 +20,12 @@
       "typescript",
       "dom"
     ],
-    "author": "Your Name",
+    "author": "Yitz Shapiro",
     "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yitzshapiro/screen-glitch"
+    },
     "peerDependencies": {
       "react": ">=16.8.0"
     },

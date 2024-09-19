@@ -2,7 +2,7 @@
 
 A React component that applies a realistic CRT monitor glitch effect to your entire application.
 
-![ScreenGlitch Demo](https://your-image-url.com/demo.gif)
+![ScreenGlitch Demo](docs/demo.gif)
 
 ## Installation
 
