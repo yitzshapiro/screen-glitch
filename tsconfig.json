@@ -1,19 +1,22 @@
 {
-    "compilerOptions": {
-      "outDir": "./dist",
-      "target": "ES5",
-      "module": "ESNext",
-      "lib": ["dom", "es6"],
-      "jsx": "react",
-      "declaration": true,
-      "declarationMap": true,
-      "sourceMap": true,
-      "moduleResolution": "node",
-      "esModuleInterop": true,
-      "strict": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true
-    },
-    "include": ["src/**/*"]
-  }
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ES5",
+    "module": "ESNext",
+    "lib": ["dom", "es6"],
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"]
+}
   

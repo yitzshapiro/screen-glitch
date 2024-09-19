@@ -1,6 +1,6 @@
 {
     "name": "screen-glitch",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A React component that applies a realistic glitch effect to the entire DOM.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
     ],
     "scripts": {
       "build": "tsc",
-      "postbuild": "cpx \"src/**/*.{css,png,gif}\" dist && cpx \"src/assets/*.gif\" dist/assets"
+      "postbuild": "cpx \"src/**/*.{css,png,gif}\" dist && cpx \"src/assets/*.{gif,png}\" dist/assets"
     },
     "keywords": [
       "react",

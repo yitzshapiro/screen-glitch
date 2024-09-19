@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
-import glitchGif1 from '../assets/glitch1.gif';
-import glitchGif2 from '../assets/glitch2.gif';
-import brokenGlass from '../assets/broken-glass.png';
 import './ScreenGlitch.css';
+
+const glitchGif1 = new URL('../assets/glitch1.gif', import.meta.url).href;
+const glitchGif2 = new URL('../assets/glitch2.gif', import.meta.url).href;
+const brokenGlass = new URL('../assets/broken-glass.png', import.meta.url).href;
 
 export interface ScreenGlitchProps {
   active: boolean;
