@@ -1,1 +1,1 @@
-export { default as ScreenGlitch } from './ScreenGlitch';
+export { default as ScreenGlitch } from './components/ScreenGlitch';
