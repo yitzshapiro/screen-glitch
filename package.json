@@ -9,7 +9,7 @@
     ],
     "scripts": {
       "build": "tsc",
-      "postbuild": "cpx \"src/assets/**/*\" dist/assets",
+      "postbuild": "cpx \"src/**/*.{css,png,gif}\" dist",
       "prepare": "npm run build"
     },
     "repository": {
