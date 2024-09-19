@@ -30,12 +30,9 @@ const ScreenGlitch: React.FC<ScreenGlitchProps> = ({ active = false }) => {
         `;
         document.body.appendChild(svgElem);
       }
-      // Apply the filter to the body
       body.style.filter = `url(#${filterId})`;
     } else {
-      // Remove the filter
       body.style.filter = '';
-      // Remove SVG element
       const svgElem = document.getElementById(svgId);
       if (svgElem) {
         svgElem.parentNode?.removeChild(svgElem);
@@ -43,7 +40,6 @@ const ScreenGlitch: React.FC<ScreenGlitchProps> = ({ active = false }) => {
     }
 
     return () => {
-      // Clean up
       body.style.filter = '';
       const svgElem = document.getElementById(svgId);
       if (svgElem) {
